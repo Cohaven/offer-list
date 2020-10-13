@@ -12,9 +12,11 @@ The goal of the app is to create a backend that follows modern best practices, i
 ## Set up instructions
 1. Install **docker** and **git**
 3. Open OS terminal and navigate to a directory where you want to clone this repo to
-4. Run `git clone https://github.com/Cohaven/offer-list.git`
+4. Run `git clone https://github.com/Cohaven/offer-list.git .`
 5. Run `docker-compose up`
 6. In a browser, go to `localhost`
+
+Once you're done with the server, you can use `Ctrl+C` or run `docker-compose down` to turn off the container.
 
 ## Overview of the solution
 * Docker is used to set up the development environment that can be easily deployed and shared with others. `Dockerfile` sets up server-side dependencies, while `docker-compose.yml` simplifies the deployment procedure by reducing it to just one simple command. This file can also be used in the future to add a database container to the development stack.
