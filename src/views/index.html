@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Offers</title>
+    </head>
+    <body>
+        <table>
+            <tr>
+                <th></th>
+                <th><a href="/?sort=name">Sort By Name</a></th>
+                <th><a href="/?sort=cash">Sort By Cash Back</a></th>
+            </tr>
+        {% for item in offers %}
+            <tr>
+                <td><img src="{{ item.getImageUrl() }}" alt="{{ item.getName() }}"></td>
+                <td>{{ item.getName() }}</td>
+                <td>{{ item.getCashBack() }}</td>
+            </tr>
+        {% endfor %}
+        </table>
+    </body>
+</html>
