@@ -15,6 +15,7 @@ The goal of the app is to create a backend that follows modern best practices, i
 4. Run `git clone https://github.com/Cohaven/offer-list.git .`
 5. Run `docker-compose up`
 6. In a browser, go to `localhost`
+
 Once you're done with the server, you can use `Ctrl+C` or run `docker-compose down` to turn off the container.
 
 ## Overview of the solution
