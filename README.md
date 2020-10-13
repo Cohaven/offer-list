@@ -3,7 +3,7 @@
 This is a very simple app that displays a list of cash back offers. 
 
 The goal of the app is to create a backend that follows modern best practices, including:
-1. Understanding of MVC architecture
+1. MVC architecture
 2. Dependency Injection
 3. Repository pattern
 4. Unit Testing
