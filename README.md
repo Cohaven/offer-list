@@ -12,7 +12,7 @@ The goal of the app is to create a backend that follows modern best practices, i
 ## Set up instructions
 1. Install **docker** and **git**
 3. Open OS terminal and navigate to a directory where you want to clone this repo to
-4. Run `git clone https://github.com/Cohaven/offer-list.git`
+4. Run `git clone https://github.com/Cohaven/offer-list.git .`
 5. Run `docker-compose up`
 6. In a browser, go to `localhost`
 
