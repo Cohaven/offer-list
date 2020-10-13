@@ -17,6 +17,7 @@ The goal of the app is to create a backend that follows modern best practices, i
 6. In a browser, go to `localhost`
 
 ## Overview of the solution
+* Docker is used to set up the development environment that can be easily deployed and shared with others. `Dockerfile` sets up server-side dependencies, while `docker-compose.yml` simplifies the deployment procedure by reducing it to just one simple command. This file can also be used in the future to add a database container to the development stack.
 * I used the Slim microframework so that there are no doubts about what code was mine and what came with the framework. I did not use any skeleton/boilerplate code.
 * I moved the routes and container code out of the `index.php` file to make them easier to independently modify without worrying aboout or potentially affecting important wiring mechanisms in the file. 
 There is also a security benefit: if PHP stops working for whatever reason, and `index.php` is shown as plain text in the browser, it won't disclose any routes or dependencies, so it won't reveal most of the info about the app.
